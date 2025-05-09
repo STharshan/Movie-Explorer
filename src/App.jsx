@@ -5,7 +5,7 @@ import Home from './Pages/Home';
 import MovieDetails from './Components/MovieDetails';
 import Favorites from './Pages/Favorites';
 import Login from './Pages/Login';
-import { MovieContextProvider } from './context/MovieContext';
+import { MovieContextProvider } from './Context/MovieContext';
 
 const App = () => {
   const [theme, setTheme] = useState('light');
